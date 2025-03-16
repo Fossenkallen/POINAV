@@ -1,0 +1,19 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>com.limaltd.POINAV</Name>
+  <DisplayName>POINAV Core</DisplayName>
+  <Description>The core application files for POINAV</Description>
+  <Version>1.0.0</Version>
+  <ReleaseDate>2025-03-16</ReleaseDate>
+  <Default>true</Default>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="25485105" OS="Any" UncompressedSize="99080300"/>
+  <DownloadableArchives>generic.7z,geoservices.7z,iconengines.7z,imageformats.7z,img.7z,networkinformation.7z,platforms.7z,position.7z,qml.7z,qmltooling.7z,rsrc.7z,styles.7z,tls.7z,translations.7z,content.7z</DownloadableArchives>
+  <SHA1>a9b3cda1d09b44794012f3bde5d8e7231283078f</SHA1>
+ </PackageUpdate>
+ <SHA1>65205ba7b64b361adb31bfaac3c8534118377944</SHA1>
+ <MetadataName>2025-03-16-1748_meta.7z</MetadataName>
+</Updates>
