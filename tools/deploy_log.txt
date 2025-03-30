@@ -1,0 +1,9 @@
+2025-03-16 17:31:15,096 - INFO - Starting deployment process...
+2025-03-16 17:31:15,097 - INFO - Copying C:\Users\Scipio\source\repos\QtMapUI_MVP\x64\Release\QtMapUI_MVP.exe to C:\Users\Scipio\source\repos\POINAV\installers\packages\com.limaltd.POINAV\data\POI Navigator.exe
+2025-03-16 17:31:15,099 - INFO - Running windeployqt...
+2025-03-16 17:31:15,099 - INFO - Command: C:\Qt652\6.8.1\msvc2022_64\bin\windeployqt.exe --release --qmldir C:\Users\Scipio\source\repos\QtMapUI_MVP C:\Users\Scipio\source\repos\POINAV\installers\packages\com.limaltd.POINAV\data\POI Navigator.exe
+2025-03-16 17:31:19,087 - INFO - windeployqt completed successfully
+2025-03-16 17:31:19,087 - INFO - Building installer...
+2025-03-16 17:31:19,087 - INFO - Command: C:\Qt652\Tools\QtInstallerFramework\4.8\bin\binarycreator --offline-only -c C:\Users\Scipio\source\repos\POINAV\installers\config\config.xml -p C:\Users\Scipio\source\repos\POINAV\installers\packages C:\Users\Scipio\source\repos\POINAV\installers\POINavigator-1.0.0-setup.exe
+2025-03-16 17:31:57,300 - INFO - Installer built successfully: C:\Users\Scipio\source\repos\POINAV\installers\POINavigator-1.0.0-setup.exe
+2025-03-16 17:31:57,301 - INFO - Deployment process completed in 42.20 seconds

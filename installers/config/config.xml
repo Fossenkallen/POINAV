@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>POI Navigators</Name>
+    <Version>1.0.2</Version>
+    <Title>POI Navigators Installer</Title>
+    <Publisher>Lima Ltd</Publisher>
+    <StartMenuDir>POI Navigators</StartMenuDir>
+    <TargetDir>@ApplicationsDir@/POINAV</TargetDir>
+    <RemoteRepositories>
+        <Repository>
+            <Url>https://raw.githubusercontent.com/Fossenkallen/POINAV/main/repository</Url>
+            <DisplayName>POI Navigator Official Repository</DisplayName>
+            <Enabled>1</Enabled>
+        </Repository>
+    </RemoteRepositories>
+    <MaintenanceToolName>MaintenanceTool</MaintenanceToolName>
+    <AllowNonAsciiCharacters>true</AllowNonAsciiCharacters>
+    <InstallerWindowIcon>installer_icon.png</InstallerWindowIcon>
+    <InstallerApplicationIcon>installer_icon.png</InstallerApplicationIcon>
+    <Logo>installer_logo.png</Logo> <!-- Optional: adds a logo to wizard pages -->
+</Installer>

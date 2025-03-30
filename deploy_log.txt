@@ -1,0 +1,22 @@
+2025-03-30 15:43:51,472 - INFO - Starting deployment process...
+2025-03-30 15:43:51,476 - INFO - Found version: 1.0.2
+2025-03-30 15:43:51,476 - INFO - Found app name: POI Navigators
+2025-03-30 15:43:51,476 - INFO - Found company name: Lima Ltd
+2025-03-30 15:43:51,477 - INFO - Using application version: 1.0.2
+2025-03-30 15:43:51,477 - INFO - Copying C:\Users\Scipio\source\repos\QtMapUI_MVP\x64\Release\QtMapUI_MVP.exe to C:\Users\Scipio\source\repos\POINAV\installers\packages\com.limaltd.POINAV\data\POI Navigator.exe
+2025-03-30 15:43:51,479 - INFO - Updating config file: C:\Users\Scipio\source\repos\POINAV\installers\config\config.xml
+2025-03-30 15:43:51,481 - INFO - Successfully updated config file
+2025-03-30 15:43:51,482 - INFO - Updating package file: C:\Users\Scipio\source\repos\POINAV\installers\packages\com.limaltd.POINAV\meta\package.xml
+2025-03-30 15:43:51,485 - INFO - Successfully updated package file
+2025-03-30 15:43:51,486 - INFO - installscript.qs not found, skipping JavaScript update
+2025-03-30 15:43:51,486 - INFO - Running windeployqt...
+2025-03-30 15:43:51,486 - INFO - Command: C:\Qt652\6.8.1\msvc2022_64\bin\windeployqt.exe --release --qmldir C:\Users\Scipio\source\repos\QtMapUI_MVP C:\Users\Scipio\source\repos\POINAV\installers\packages\com.limaltd.POINAV\data\POI Navigator.exe
+2025-03-30 15:43:56,642 - INFO - windeployqt completed successfully
+2025-03-30 15:43:56,642 - INFO - Building installer...
+2025-03-30 15:43:56,642 - INFO - Command: C:\Qt652\Tools\QtInstallerFramework\4.8\bin\binarycreator --offline-only -c C:\Users\Scipio\source\repos\POINAV\installers\config\config.xml -p C:\Users\Scipio\source\repos\POINAV\installers\packages C:\Users\Scipio\source\repos\POINAV\installers\POINavigators-1.0.2-setup.exe
+2025-03-30 15:44:35,328 - INFO - Installer built successfully: C:\Users\Scipio\source\repos\POINAV\installers\POINavigators-1.0.2-setup.exe
+2025-03-30 15:44:35,328 - INFO - Generating online repository...
+2025-03-30 15:44:35,328 - INFO - Using --update-new-components flag
+2025-03-30 15:44:35,328 - INFO - Command: C:\Qt652\Tools\QtInstallerFramework\4.8\bin\repogen --update-new-components -p C:\Users\Scipio\source\repos\POINAV\installers\packages C:\Users\Scipio\source\repos\POINAV\installers\repository
+2025-03-30 15:45:12,105 - INFO - Repository generated successfully: C:\Users\Scipio\source\repos\POINAV\installers\repository
+2025-03-30 15:45:12,105 - INFO - Deployment process completed in 80.63 seconds
